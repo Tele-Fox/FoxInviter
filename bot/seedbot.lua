@@ -240,7 +240,7 @@ function create_config( )
     sudo_users = {131189448,146661928},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Fox v2/5 😊
+    about_text = [[Fox v3 😊
 👥 Sudos: 
 👤 @Tofaniyam 
 👤 @teleadminfox 
