@@ -33,6 +33,19 @@ function run(msg, matches)
 end
 return {
     patterns = {
+      "^[!/]invite (.*)$"
+    },
+    run = run
+}
+
+end
+	local cbres_extra = {chatid = msg.to.id}
+  local username = matches[1]
+  local username = username:gsub("@","")
+  res_user(username,  callbackres, cbres_extra)
+end
+return {
+    patterns = {
       "^[Ii]nvite (.*)$"
     },
     run = run
