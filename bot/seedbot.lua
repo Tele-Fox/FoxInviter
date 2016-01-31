@@ -228,6 +228,7 @@ function create_config( )
     "all",
     "lock_join",
     "info",
+    "info",
     "leave_ban"
     },
     sudo_users = {131189448,146661928},--Sudo users
