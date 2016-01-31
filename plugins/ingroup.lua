@@ -1383,9 +1383,3 @@ return {
   run = run
 }
 end
-  "^[!/$&#@#@*^%]([Ll]ink)$",
-   "%[(photo)%]"
-  },
-  run = run
-}
-end
